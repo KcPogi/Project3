@@ -132,7 +132,6 @@ nav ul li a:hover {
     background-color: #fff;
 }
 
-/* Grid Patterns */
 .order::before,
 .order::after {
     content: '';
@@ -155,7 +154,6 @@ nav ul li a:hover {
     right: 20px;
 }
 
-/* Heading */
 .order h1 {
     font-size: 36px;
     font-weight: bold;
@@ -163,7 +161,6 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* Image Container */
 .order-options {
     display: flex;
     justify-content: center;
@@ -172,7 +169,7 @@ nav ul li a:hover {
 }
 
 .order-options img {
-    width: auto; /* Adjust image size */
+    width: auto;
     height: auto;
 }
 
