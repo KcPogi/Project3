@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crunch</title>
+    <link rel="stylesheet" href="branches.css">
+    <link rel="shortcut icon" href="images/1.png" >
+</head>
+<body>
+    <header>
+        <img src="images/1.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="food.html">Food Menu</a></li>
+                <li><a href="branches.html">Branches</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="Branches">The Crunch Branches</h1>
+        <div class="container">
+            <div class="card">
+                <img src="images/11.jpg" alt="PAMPLONA, LAS PINAS">
+                <div class="overlay">PAMPLONA, LAS PINAS</div>
+            </div>
+            <div class="card">
+                <img src="images/22.jpg" alt="MAKATI">
+                <div class="overlay">MAKATI</div>
+            </div>
+            <div class="card">
+                <img src="images/33.jpg" alt="MARICABAN, PASAY">
+                <div class="overlay">MARICABAN, PASAY</div>
+            </div>
+            <div class="card">
+                <img src="images/44.jpg" alt="SAN JOSE DEL MONTE, BULACAN">
+                <div class="overlay">SAN JOSE DEL MONTE, BULACAN</div>
+            </div>
+            <div class="card">
+                <img src="images/55.jpg" alt="TACLOBAN">
+                <div class="overlay">TACLOBAN</div>
+            </div>
+            <div class="card">
+                <img src="images/230209103_200981122058740_4873337222887783984_n.jpg" alt="ALABANG, LAS PINAS">
+                <div class="overlay">ALABANG, LAS PINAS</div>
+            </div>
+            <div class="card">
+                <img src="images/BG LATTA.jpg" alt="SUCAT">
+                <div class="overlay">SUCAT</div>
+            </div>
+            <div class="card">
+                <img src="images/10.jpg" alt="ORMOC">
+                <div class="overlay">ORMOC</div>
+            </div>
+            <div class="card">
+                <img src="images/56.jpg" alt="GUMACA">
+                <div class="overlay">GUMACA</div>
+            </div>
+            <div class="card">
+                <img src="images/231960491_199652678858251_8711298147177512549_n.jpg" alt="VALENZUELA">
+                <div class="overlay">VALENZUELA</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Crunch. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        let lastScrollTop = 0;
+        const header = document.querySelector('header');
+                    
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                header.style.top = "-105px"; 
+            } else {
+                header.style.top = "0";
+            }
+            lastScrollTop = scrollTop;
+        });
+    </script>
+    
+</body>
+</html>
